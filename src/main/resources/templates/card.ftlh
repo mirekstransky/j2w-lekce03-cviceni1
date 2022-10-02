@@ -14,7 +14,7 @@
 <div class="container">
     <div class="person-info">
         <div class="photo-border"></div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Jan_Palach_foto_z_pr%C5%AFkazu.JPG" class="photo" alt="profilové foto"/>
+        <img src="${person.photoURL}" class="photo" alt="profilové foto"/>
         <div class="row">
             <span class="label">Jméno</span>
             <span class="value">${person.givenName}</span>
@@ -33,8 +33,8 @@
         </div>
     </div>
     <div class="address">
-        <div class="address-line">Smetanova 337</div>
-        <div class="address-line">27716 Všetaty</div>
+        <div class="address-line">${address.streetAndNumbers}</div>
+        <div class="address-line">${address.zipCode} ${address.city}</div>
     </div>
 </div>
 </body>
