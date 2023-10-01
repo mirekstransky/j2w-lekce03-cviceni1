@@ -10,7 +10,6 @@ import java.util.Objects;
 public class Person {
   private String givenName;
   private String surname;
-
   private String photoURL;
   private LocalDate birthDate;
 

@@ -1,6 +1,6 @@
 [#ftl]
 <!DOCTYPE html>
-<html lang="cs" xmlns:th="http://www.thymeleaf.org">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <title>Kartička zákazníka</title>
@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <span class="label">Příjmení</span>
-            <span class="value">${person.lastName}</span>
+            <span class="value">${person.surname}</span>
         </div>
         <div class="row">
             <span class="label">Datum narození</span>
